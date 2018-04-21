@@ -6,9 +6,9 @@ class Home extends React.Component {
     return(
       <div className='home-parent'>
         <div className='home-child'>
-          <h1>Hani Zahra</h1>
-          <h1>&lt;Web Developer /&gt;</h1>
-          <h1>Audio Engineer</h1>
+          <h1><span className='black'>Hello!</span> I'm <span className='black'>Hani Zahra</span>,</h1>
+          <h1>a <span className='black'>Web</span> Developer <span className='black'>/</span></h1>
+          <h1>Audio <span className='black'>Engineer</span>.</h1>
         </div>
       </div>
       );

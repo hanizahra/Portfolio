@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   font-family: sans-serif;
   height: 100%;
-  background-color: palevioletred;
+  background: linear-gradient(rgb(25, 78, 196), rgb(0, 18, 196));
 /*  display: flex;
 */}
 
@@ -18,9 +18,21 @@ html, body {
   height: 50px;
 }
 
+.black {
+  color: gold;
+}
+
+@font-face {
+    font-family: "GT Walsheim";
+    src: url(https://github.com/mgonto/gon.to/blob/master/fonts/GT-Walsheim-Medium.ttf) format("truetype");
+}
+
+
 h1 {
   text-align: left;
-  font-family: 'Raleway', sans-serif;
-  font-size: 100px;
+  font-family: 'GT Walsheim';
+  font-size: 90px;
+  color: white;
+  font-weight: medium;
 }
 

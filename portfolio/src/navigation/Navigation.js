@@ -7,6 +7,12 @@ import Home from '../components/Home';
 import Code from '../components/Code';
 import Sounds from '../components/Sounds';
 import { slide as Menu } from 'react-burger-menu';
+import TiIconPack from 'react-icons/lib/ti';
+import GoIconPack from 'react-icons/lib/go';
+import { TiSocialTwitter, TiMail, TiSocialGithubCircular, TiSocialInstagram } from 'react-icons/lib/ti';
+
+
+
 
 class Navigation extends React.Component {
   showSettings (event) {
@@ -16,11 +22,16 @@ class Navigation extends React.Component {
   render () {
     return (
         <Menu className='sidebar'>
-          <a id="home" className="menu-item" href="/">Home</a>
-          <a id="about" className="menu-item" href="/about">About</a>
-          <a id="code" className="menu-item" href="/code">Code</a>
-          <a id="sounds" className="menu-item" href="/sounds">Sounds</a>
-          <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
+            <a id="home" className="menu-item" href="/">Home</a>
+            <a id="about" className="menu-item" href="/about">About</a>
+            <a id="code" className="menu-item" href="/code">Code</a>
+            <a id="sounds" className="menu-item" href="/sounds">Sounds</a>
+            <div className="bottom-item">
+              <a id="mail" href="mailto:hanizahra@gmail.com"><span className='bottom-icons'><TiMail /></span><span className='social-text'>hanizahra@gmail.com</span></a>{<hr/>}
+              <a id="github" href="https://github.com/hanizahra"><span className='bottom-icons'><TiSocialGithubCircular /></span><span className='social-text'>hanizahra</span></a>{<hr/>}
+              <a id="instagram" href="https://www.instagram.com/machetesisters/"><span className='bottom-icons'><TiSocialInstagram /></span><span className='social-text'>machetesisters</span></a>{<hr/>}
+              <a id="twitter" href="https://twitter.com/hanizahra?lang=en"><span className='bottom-icons'><TiSocialTwitter /></span><span className='social-text'>@hanizahra</span></a>
+            </div>
         </Menu>
     );
   }
