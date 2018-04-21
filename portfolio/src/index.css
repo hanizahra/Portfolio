@@ -71,17 +71,23 @@ a {
   margin-top: 150px;
   display: flex;
   flex-wrap: wrap;
-  background-color: yellow;
-  justify-content: center;
+/*  background-color: yellow;
+*/  justify-content: center;
 }
 
 .project-pieces {
+/*  background-color: red;
+*/  justify-content: center;
+}
+
+.pieces-text{
   background-color: red;
   justify-content: center;
 }
 
-.xxx {
-  margin-top: 150px;
+.project-images {
+  justify-content: center;
+  display: flex;
 }
 
 
