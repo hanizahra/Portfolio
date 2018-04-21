@@ -24,11 +24,38 @@ html, body {
 
 @font-face {
     font-family: "GT Walsheim";
-    src: url(../css/GT-Walsheim-Medium.ttf) format("truetype");
+    src: url(./css/GT-Walsheim-Medium.ttf) format("truetype");
 }
 
-
 h1 {
+  text-align: center;
+  font-family: 'GT Walsheim';
+  font-size: 90px;
+  color: white;
+  font-weight: medium;
+}
+
+.page-title {
+  margin-top: 15px;
+}
+
+.page-container {
+  margin-top: 50px;
+  display: flex;
+/*  background-color: yellow;
+*/  align-items: center;
+  justify-content: center;
+}
+
+.body-text {
+  width: 100px;
+  background-color: red;
+}
+ p {
+  width: 600px;
+ }
+
+.home-title {
   text-align: left;
   font-family: 'GT Walsheim';
   font-size: 90px;
@@ -39,4 +66,22 @@ h1 {
 a {
   font-family: 'GT Walsheim';
 }
+
+.project-container {
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+  justify-content: center;
+}
+
+.project-pieces {
+  background-color: red;
+  justify-content: center;
+}
+
+.xxx {
+  margin-top: 150px;
+}
+
 

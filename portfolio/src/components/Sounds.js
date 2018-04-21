@@ -5,7 +5,7 @@ class Sounds extends React.Component {
   render(){
     return(
       <div>
-        <h1>Sounds Page</h1>
+        <h1>Sounds go here</h1>
       </div>
       );
   };
