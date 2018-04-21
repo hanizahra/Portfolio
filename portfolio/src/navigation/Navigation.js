@@ -22,7 +22,7 @@ class Navigation extends React.Component {
   render () {
     return (
         <Menu className='sidebar'>
-            <a id="home" className="menu-item" href="/">Home</a>{<hr/>}
+            <a id="home" className="menu-item" href="/"><span className='hover-effect'>Home</span></a>{<hr/>}
             <a id="about" className="menu-item" href="/about">About</a>{<hr/>}
             <a id="code" className="menu-item" href="/code">Code</a>{<hr/>}
             <a id="sounds" className="menu-item" href="/sounds">Sounds</a>

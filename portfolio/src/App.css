@@ -34,6 +34,11 @@
   height: 45px;
   left: 36px;
   top: 36px;
+  transition: all .2s ease-in-out;
+}
+
+.bm-burger-button:hover {
+  transform: scale(1.1);
 }
 
 /* Color/shape of burger icon bars */
@@ -81,11 +86,14 @@ hr {
   margin: 10px 0px 0px 0px;
 }
 
+a {
+  transition: all .2s ease-in-out;
+}
+
 a:hover {
-  transition: all 100ms linear;
-    transition-delay: 50ms;
+  transform: scale(1.1);
+  transition: background-color 2s ease-out;
   text-decoration: none;
-  text-shadow: rgba(33,33,33,.2);
 }
 
 .bottom-item {

@@ -24,7 +24,7 @@ html, body {
 
 @font-face {
     font-family: "GT Walsheim";
-    src: url(https://github.com/mgonto/gon.to/blob/master/fonts/GT-Walsheim-Medium.ttf) format("truetype");
+    src: url(../css/GT-Walsheim-Medium.ttf) format("truetype");
 }
 
 
@@ -34,5 +34,9 @@ h1 {
   font-size: 90px;
   color: white;
   font-weight: medium;
+}
+
+a {
+  font-family: 'GT Walsheim';
 }
 
