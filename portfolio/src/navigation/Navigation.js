@@ -22,9 +22,9 @@ class Navigation extends React.Component {
   render () {
     return (
         <Menu className='sidebar'>
-            <a id="home" className="menu-item" href="/">Home</a>
-            <a id="about" className="menu-item" href="/about">About</a>
-            <a id="code" className="menu-item" href="/code">Code</a>
+            <a id="home" className="menu-item" href="/">Home</a>{<hr/>}
+            <a id="about" className="menu-item" href="/about">About</a>{<hr/>}
+            <a id="code" className="menu-item" href="/code">Code</a>{<hr/>}
             <a id="sounds" className="menu-item" href="/sounds">Sounds</a>
             <div className="bottom-item">
               <a id="mail" href="mailto:hanizahra@gmail.com"><span className='bottom-icons'><TiMail /></span><span className='social-text'>hanizahra@gmail.com</span></a>{<hr/>}
