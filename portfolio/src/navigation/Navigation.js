@@ -21,7 +21,7 @@ class Navigation extends React.Component {
 
   render () {
     return (
-        <Menu className='sidebar'>
+        <Menu burgerBarClassName={ "burger-bars-class" } className='sidebar'>
             <a id="home" className="menu-item" href="/"><span className='hover-effect'>Home</span></a>{<hr/>}
             <a id="about" className="menu-item" href="/about">About</a>{<hr/>}
             <a id="code" className="menu-item" href="/code">Code</a>{<hr/>}

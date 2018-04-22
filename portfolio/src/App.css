@@ -46,6 +46,10 @@
   background: white;
 }
 
+.burger-bars-class {
+  background: black;
+}
+
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
   height: 24px;

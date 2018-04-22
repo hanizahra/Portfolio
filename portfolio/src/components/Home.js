@@ -2,6 +2,16 @@ import React, { Component } from 'react';
 import '../App.css';
 
 class Home extends React.Component {
+
+
+  componentWillMount(){
+    document.body.style.backgroundColor = "rgb(25, 78, 196)"
+  }
+
+  componentWillUnmount(){
+      document.body.style.backgroundColor = null;
+  }
+
   render(){
     return(
       <div className='home-parent'>
