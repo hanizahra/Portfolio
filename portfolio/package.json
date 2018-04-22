@@ -10,9 +10,11 @@
     "react-dom": "^16.3.2",
     "react-icons": "^2.2.7",
     "react-image-autofit-frame": "^0.1.0",
+    "react-player": "^1.4.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
-    "react-sidebar": "^2.3.2"
+    "react-sidebar": "^2.3.2",
+    "react-soundplayer": "^1.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
