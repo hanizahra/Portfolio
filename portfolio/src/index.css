@@ -94,6 +94,11 @@ a {
   font-size: 14px;
 }
 
+.descript-bio {
+  font-family: 'Raleway';
+  font-size: 20px;
+}
+
 .project-images {
   justify-content: center;
   display: flex;
