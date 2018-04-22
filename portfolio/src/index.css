@@ -81,7 +81,6 @@ a {
 }
 
 .pieces-text{
-  background-color: red;
   justify-content: center;
 }
 
@@ -90,4 +89,9 @@ a {
   display: flex;
 }
 
+.single-image {
+  border-radius: 5px;
+  margin: 0px 0px 15px 0px;
+  height: 200px;
+}
 
