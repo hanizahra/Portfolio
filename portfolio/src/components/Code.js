@@ -14,11 +14,11 @@ class Code extends React.Component {
             <h2><a href='https://github.com/hanizahra/Tinderless-Frontend'>Tinderless</a></h2>
             <div className='pieces-text'>
               <div className='project-images'>
-                <Image className='single-image' src="/testimage.png" responsive />
-                <Image className='single-image' src="/swiping.gif" responsive />
+                <Image className='single-image1' src="/testimage.png" responsive />
+                <Image className='single-image1' src="/swiping.gif" responsive />
               </div>
               <p className='descript'>Users swipe for matches currently located at their address</p>
-              <p className='tech'><b>Tech:</b> React Native/Geolocation/Google APIs/Node+Express/PostgreSQL</p>
+              <p className='tech'><b>Tech:</b> React Native/Geolocation/Google APIs/{<br />}Node+Express/PostgreSQL</p>
             </div>
           </div>
           <div className='project-pieces'>
@@ -57,8 +57,8 @@ class Code extends React.Component {
               <div className='project-images'>
                 <Image className='single-image' src="/building-311.gif" responsive />
               </div>
-              <p className='descript'>Violations and Complaints for buildings/apartments in New York</p>
-              <p className='tech'><b>Tech:</b> Web scraper(Cheerio)/Node+Express/EJS/PostgreSQL/Bootstrap 4</p>
+              <p className='descript'>Violations and Complaints for {<br />}buildings/apartments in New York</p>
+              <p className='tech'><b>Tech:</b> Web scraper(Cheerio)/Node+Express/{<br />}EJS/PostgreSQL/Bootstrap 4</p>
             </div>
           </div>
           <div className='project-pieces'>

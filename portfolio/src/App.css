@@ -123,3 +123,36 @@ a:hover {
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
+
+@media screen and (max-width: 600px) {
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 25px;
+    top: 36px;
+    transition: all .2s ease-in-out;
+  }
+
+  .bottom-item {
+    padding: 1.5em 1.5em 1;
+    margin-top: 55%;
+    font-size: .5em;
+    padding-left: 0px;
+  }
+
+  .bm-menu {
+    text-align: left;
+    background: white;
+    padding: .4em .4em 0;
+    font-size: 1.7em;
+  }
+
+  .social-text {
+    padding-left: 4em;
+    font-size: .7em;
+  }
+}
+
+
+
