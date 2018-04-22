@@ -158,7 +158,7 @@ a:hover {
 @media screen and (max-width: 380px) {
    .bottom-item {
       padding: 1.5em 1.5em 1;
-      margin-top: 85%;
+      margin-top: 65%;
       font-size: .5em;
       padding-left: 0px;
     }
