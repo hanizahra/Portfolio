@@ -130,6 +130,8 @@ a {
   margin-top: 150px;
 }
 
+
+
 @media screen and (max-width: 450px) {
   .home-title {
     text-align: left;
@@ -193,7 +195,7 @@ a {
 
 }
 
-@media screen and (max-width: 392px) {
+@media screen and (max-width: 880px) {
   .home-title {
     text-align: left;
     font-family: 'GT Walsheim';
@@ -201,59 +203,26 @@ a {
     color: white;
     font-weight: medium;
   }
-
-/*  .descript-bio {
-    font-family: 'Raleway';
-    text-align: left;
-    font-size: 15px;
-    margin: 0px 50px 20px 50px;
-    width: 350px;
-  }
-
-  .page-title {
-    font-size: 40px;
-    margin-top: 95px;
-    margin-left: 20px;
-    color: rgb(25, 78, 196);
-  }
-
-  .parent-sounds {
-    display: flex;
-    flex-direction: column;
-    width: 50px;
-  }
-
-  .child-sounds {
-      align-self: center;
-      margin: 0px 0px 100px 0px;
-      height: 50px;
-      width: 50px;
-  }
-
-  .single-image {
-    border-radius: 5px;
-    margin: 10px 10px 25px 10px;
-    width: 300px;
-    height: 200px;
-  }
-
-  .single-image1 {
-    border-radius: 5px;
-    margin: 0px 0px 15px 0px;
-    height: 200px;
-  }
-
-  .descript {
-    font-family: 'Raleway';
-    font-size: 14px;
-    margin: 0px 40px 0px 40px;
-  }
-
-  .tech {
-    font-size: 13px;
-    margin-left: 40px;
-  }*/
-
 }
 
+@media screen and (max-width: 640px) {
+  .home-title {
+    text-align: left;
+    font-family: 'GT Walsheim';
+    font-size: 53px;
+    color: white;
+    font-weight: medium;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .home-title {
+    text-align: left;
+    font-family: 'GT Walsheim';
+    font-size: 28px;
+    color: white;
+    margin-right: 50px;
+    font-weight: medium;
+  }
+}
 
