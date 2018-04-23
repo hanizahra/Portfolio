@@ -42,6 +42,11 @@ h1 {
   color: rgb(25, 78, 196);
 }
 
+.page-title1 {
+  margin-top: 15px;
+  color: rgb(25, 78, 196);
+}
+
 .page-container {
   margin-top: 50px;
   display: flex;
@@ -159,6 +164,13 @@ a {
     color: rgb(25, 78, 196);
   }
 
+  .page-title1 {
+    font-size: 40px;
+    margin-top: 95px;
+    margin-left: 20px;
+    color: rgb(25, 78, 196);
+  }
+
   .parent-sounds {
     display: flex;
     flex-direction: column;
@@ -234,6 +246,92 @@ a {
     font-size: 15px;
     margin: 0px 50px 20px 50px;
     width: 316px;
+  }
+
+  .descript {
+    font-family: 'Raleway';
+    font-size: 13px;
+    margin: 0px 0px;
+    padding: 0px 150px;
+  }
+
+  .tech {
+    font-size: 12px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .home-title {
+    text-align: left;
+    font-family: 'GT Walsheim';
+    font-size: 28px;
+    color: white;
+    margin-left: 25px;
+    font-weight: medium;
+  }
+
+  .descript-bio {
+    font-family: 'Raleway';
+    text-align: left;
+    font-size: 15px;
+    margin: 0px 50px 20px 50px;
+    width: 316px;
+  }
+
+  .descript {
+    font-family: 'Raleway';
+    font-size: 12px;
+    margin: 0px 0px;
+    padding: 0px 150px;
+  }
+
+  .tech {
+    font-size: 11px;
+    margin-left: 0px;
+  }
+
+  .project-pieces {
+    justify-content: center;
+    margin: 0px 10px 70px 10px;
+  }
+
+  .single-image {
+    border-radius: 5px;
+    margin: 0px 0px 15px 0px;
+    height: 145px;
+    width: 250px;
+
+  }
+
+  .single-image1 {
+    border-radius: 5px;
+    margin: 0px 0px 15px 0px;
+    height: 145px;
+  }
+
+  .descript-bio {
+    font-family: 'Raleway';
+    text-align: left;
+    font-size: 15px;
+    margin: 0px 50px 40px 60px;
+    width: 275px;
+  }
+
+  .page-title1 {
+    font-size: 40px;
+    margin-top: 95px;
+    margin-left: 0px;
+    color: rgb(25, 78, 196);
+  }
+
+  .home-title {
+    text-align: left;
+    font-family: 'GT Walsheim';
+    font-size: 28px;
+    color: white;
+    margin-left: 8px;
+    font-weight: medium;
   }
 }
 

@@ -67,7 +67,7 @@ class Code extends React.Component {
                   <Image className='single-image' src="/building-311.gif" responsive />
                 </a>
               </div>
-              <p className='descript'>Violations and Complaints for {<br />}buildings/apartments in New York</p>
+              <p className='descript'>Violations and Complaints for buildings/apartments in New York</p>
               <p className='tech'><b>Tech:</b> Web scraper(Cheerio)/Node+Express/{<br />}EJS/PostgreSQL/Bootstrap 4</p>
             </div>
           </div>
