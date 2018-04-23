@@ -99,6 +99,7 @@ a {
 .descript-bio {
   font-family: 'Raleway';
   font-size: 20px;
+  text-align: left;
 }
 
 .project-images {
