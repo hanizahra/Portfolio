@@ -5,7 +5,7 @@ class About extends React.Component {
   render(){
     return(
       <div>
-        <h1 className='page-title'>All About Me</h1>
+        <h1 className='page-title1'>All About Me</h1>
         <div className='page-container'>
           <div classname='body-text'>
             <p className='descript-bio'>I spent half my life growing up in Nebraska, playing guitar to Zeppelin and Floyd records, and playing in bands. After graduating high school, I pursued a music theory degree at ASU and spent the next five years discovering composition and recording. By that point, I was following the music wherever it would take me, circling over to Nashville for a year, then finally settling down in Brooklyn.  </p>
