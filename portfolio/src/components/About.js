@@ -5,6 +5,7 @@ class About extends React.Component {
   render(){
     return(
       <div>
+        <p>&nbsp;</p>
         <h1 className='page-title1'>All About Me</h1>
         <div className='page-container'>
           <div classname='body-text'>
