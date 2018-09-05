@@ -34,6 +34,15 @@ html, body {
 /*    src: url(./css/GT-Walsheim-Medium.ttf) format("truetype");
 */}
 
+@font-face {
+  font-family: 'Raleway';
+  src: url(./css/Raleway/Raleway-Light.eot);
+  src: url(./css/Raleway/Raleway-Light.woff2) format('woff2'),
+       url(./css/Raleway/Raleway-Light.woff) format('woff'),
+       url(./css/Raleway/Raleway-Light.ttf) format('truetype'),
+       url(./css/Raleway/Raleway-Light.svg) format('svg');
+}
+
 h1 {
   text-align: center;
   font-family: 'GT Walsheim', sans-serif !important;
@@ -102,12 +111,12 @@ a {
 }
 
 .descript {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
 }
 
 .descript-bio {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   text-align: left;
 }
@@ -155,7 +164,7 @@ a {
   }
 
   .descript-bio {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     text-align: left;
     font-size: 15px;
     margin: 0px 50px 20px 50px;
@@ -203,7 +212,7 @@ a {
   }
 
   .descript {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     margin: 0px 40px 0px 40px;
   }
@@ -246,7 +255,7 @@ a {
   }
 
   .descript-bio {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     text-align: left;
     font-size: 15px;
     margin: 0px 50px 20px 50px;
@@ -254,7 +263,7 @@ a {
   }
 
   .descript {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 13px;
     margin: 0px 0px;
     padding: 0px 150px;
@@ -277,7 +286,7 @@ a {
   }
 
   .descript-bio {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     text-align: left;
     font-size: 15px;
     margin: 0px 50px 20px 50px;
@@ -285,7 +294,7 @@ a {
   }
 
   .descript {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 12px;
     margin: 0px 0px;
     padding: 0px 150px;
@@ -316,7 +325,7 @@ a {
   }
 
   .descript-bio {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     text-align: left;
     font-size: 15px;
     margin: 0px 50px 40px 60px;
