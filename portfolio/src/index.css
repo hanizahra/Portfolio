@@ -26,12 +26,17 @@ html, body {
 
 @font-face {
     font-family: "GT Walsheim";
-    src: url(./css/GT-Walsheim-Medium.ttf) format("truetype");
-}
+    src: url(./css/GTWalsheimMedium.eot);
+    src: url(./css/GTWalsheimMedium.woff2) format('woff2'),
+         url(./css/GTWalsheimMedium.woff) format('woff'),
+         url(./css/GT-Walsheim-Medium.ttf) format('truetype'),
+         url(./css/GTWalsheimMedium.svg) format('svg');
+/*    src: url(./css/GT-Walsheim-Medium.ttf) format("truetype");
+*/}
 
 h1 {
   text-align: center;
-  font-family: 'GT Walsheim';
+  font-family: 'GT Walsheim', sans-serif !important;
   font-size: 90px;
   color: white;
   font-weight: medium;
